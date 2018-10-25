@@ -1,0 +1,15 @@
+7-Zip winrar关联文件中
+
+ss 分别对应的是 HKEY_USERS\.DEFAULT
+
+                HKEY_LOCAL_MACHINE\SOFTWARE
+
+Windows\System32\config\SOFTWARE
+Windows\System32\config\DEFAULT
+
+- 使用注册表工具查看，修改以前和修改以后的注册表
+- 通过运行`regedit`命令进入注册表
+- 将修改的注册表导出
+- 将PE的wim解压以后挂载对应的注册表文件
+- 将注册表导入
+- 开机查看效果
